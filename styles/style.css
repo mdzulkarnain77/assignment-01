@@ -254,7 +254,17 @@ a:hover{
 }
 
 /* section5 */
+.section5{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
 
+.section5-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 80px;
+}
 .Email-subscribe{
     display: flex;
     justify-content: center
@@ -263,6 +273,9 @@ a:hover{
     padding: 18px 400px 18px 40px;
     font-size: 20px;
     margin-right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
 }
 
 .btn-subs{
@@ -280,4 +293,10 @@ a:hover{
 .section5-description{
     opacity: 0.7;
     text-align: center;
+}
+.last-line{
+    opacity: 0.7;
+    font-size: 16;
+    text-align: center;
+    padding-bottom: 80px;
 }
