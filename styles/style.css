@@ -51,9 +51,9 @@ a:hover{
     margin-top: 115px;
     font-size: 24px;
     margin-bottom: 0;
+    opacity: 0.7;
     
-    
-}
+    }
 .image1{
     margin-top: 80px;
     margin-left: 70px;
@@ -71,6 +71,8 @@ a:hover{
 .section2-descripton{
     margin-top: 22px;
     font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
 
 }
 .card{
@@ -133,7 +135,9 @@ a:hover{
     background-position: 25px 25px;
 }
 .yunus-description{
-    font-size: 16px
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
 }
 .yunus-name{
     font-weight: 600;
@@ -145,6 +149,8 @@ a:hover{
 .yunus-job{
     margin-top: 0;
     margin-bottom: 0;
+    color: #0E0E0E;
+    opacity: 0.7;
 }
 /*section3*/
 .section3{
@@ -158,6 +164,7 @@ a:hover{
 .section3-description{
     margin-top: 24px;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 .satellite{
     display: flex;
@@ -169,7 +176,12 @@ a:hover{
 .satelite-news{
     margin-left: 32px;
 }
-
+.satellite-news-subtitle{
+    opacity: 0.7;
+}
+.satellite-news-description{
+    opacity: 0.7;
+}
 
 .btn-news{
     font-size: 18px;
@@ -239,4 +251,33 @@ a:hover{
 .btn-extra{
     margin-bottom: 80px;
     margin-top: 32px;
+}
+
+/* section5 */
+
+.Email-subscribe{
+    display: flex;
+    justify-content: center
+}
+.subs-email{
+    padding: 18px 400px 18px 40px;
+    font-size: 20px;
+    margin-right: 0;
+}
+
+.btn-subs{
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 34px 20px 34px;
+    background-color: #006A50;
+    margin-top: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+}
+.section5-description{
+    opacity: 0.7;
+    text-align: center;
 }
