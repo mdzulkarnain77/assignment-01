@@ -225,11 +225,18 @@ a:hover{
 }
 .money-card1:hover{
     color: darkmagenta;
+    background-color: lightblue;
 }
 .money-card2:hover{
     color: darkmagenta;
+    background-color: lightblue;
 }
 .money-input{
     padding: 20px 400px 20px 400px;
     font-size: 20px;
+    margin-bottom: 0;
+}
+.btn-extra{
+    margin-bottom: 80px;
+    margin-top: 32px;
 }
